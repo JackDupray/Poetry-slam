@@ -1,0 +1,26 @@
+#This code is obivously the code used in house of dust however, rather than something as simple as that I wanted to delve into some uncertainty
+import random
+
+
+people = ["the mad","the delusional","the unlucky","the overzealous","the greedy",
+          "the desperate","the confiedent","the overconfident","the hyper intelligent",
+          "the brave","the scared","the indefatigable","the broken","the successful",
+          "the ignorant","the lonely"]
+
+location = ["the silent forest","the calm sea","the brilliant meadows",
+            "a vacant white room","the dreaded classroom","the hearts of others",
+            "the heart of the city","a galaxy far far away","the emptiness of space"]
+
+emotion = ["overwhelming joy","great despare","extreme anxiety","introspective thought",
+           "instability","unrelenting rage","sickness of the mind","minor uncomfortability",
+           "a sense of pride","underwhelmed expectations","..."]
+
+line_1 = "In the minds of " + random.choice(people)
+line_2 = random.choice(location)
+line_3 = "mentally inflicts nothing but "
+line_4 = random.choice(emotion)
+
+print(line_1)
+print("\t " + line_2)
+print(line_3)
+print("\t " + line_4)
